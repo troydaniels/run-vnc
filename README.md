@@ -7,7 +7,9 @@ Simple script to help launch VNC Viewer and connect to OMG's cloud host on a var
 git clone https://github.com/troydaniels/run-vnc.git
 cd run-vnc
 chmod 777 runVNC.sh
-mv runVNC ~/Desktop/Launch\ VNC
+mv runVNC.sh ~/Desktop/Launch\ VNC
+cd ..
+rm run-vnc
 ```
 
 This will create a file called **Launch VNC** on your Desktop.
