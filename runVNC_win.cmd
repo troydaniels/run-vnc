@@ -15,5 +15,5 @@ IF NOT EXIST %path%(
     EXIT /B 1
     )
 
-START "" "%path%" "%host" 
+START "" "%path%" "%host%" 
 
