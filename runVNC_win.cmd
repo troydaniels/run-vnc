@@ -6,7 +6,14 @@
 
 SET host="104.199.146.199::5902"
 
-SET path=C:\Program Files\RealVNC\VNC Viewer
+SET noInstall="ERROR: VNC Viewer not found. Please download and try again."
 
-START "%path%\vncviewer.exe"  param1 "%host" 
+SET path=where vncviewer
+
+IF NOT EXIST %path%(
+    ECHO %noInstall%
+    EXIT /B 1
+    )
+
+START "" "%path%" "%host" 
 
