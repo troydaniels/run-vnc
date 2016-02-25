@@ -8,5 +8,5 @@ SET host="104.199.146.199::5902"
 
 SET path="C:\Program Files\RealVNC\VNC Viewer"
 
-START "%path%\vncviewer.exe"  param1 "%host&" 
+START "%path%\vncviewer.exe"  param1 "%host" 
 
