@@ -12,7 +12,6 @@ unamestr=$(uname)
 #Paths
 macPath="/Applications/RealVNC/VNC Viewer.app/Contents/MacOS"
 linuxPath="/usr/bin  # Depending on install, may be /usr/local/bin"
-windowsPath="C:\Program Files\RealVNC\VNC Viewer"
 
 if [[ "$unamestr" =~ Darwin ]]; then # Running OSX
   "$macPath/vncviewer" $host
