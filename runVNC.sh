@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # runVNC.sh
@@ -7,7 +6,7 @@
 #
 # Troy Daniels 25/2/16
 
-host=104.199.146.199::5909
+host=104.199.146.199::5907
 
 noInstall="ERROR: VNC Viewer not found. Please download and try again."
 
